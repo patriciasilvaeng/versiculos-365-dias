@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Versículo do dia</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;padding:20px;background:#f7f7f7}
+    .card{background:white;padding:24px;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.08);max-width:700px}
+    .ref{font-weight:700;margin-bottom:8px}
+    .text{font-size:1.15rem;line-height:1.45}
+    .small{margin-top:12px;color:#666;font-size:0.9rem}
+  </style>
+</head>
+<body>
+  <div class="card" id="card">
+    <div class="ref" id="ref">Carregando...</div>
+    <div class="text" id="text"></div>
+    <div class="small">Compartilhe com um amigo</div>
+  </div>
+
+  <script>
+    // Get local date day month in format DD-MM
+    const today = new Date();
+    const day = String(today.getDate()).padStart(2,'0');
+    const month = String(today.getMonth()+1).padStart(2,'0');
+    const key = `${day}-${month}`;
+
+    fetch('verses.json')
+      .then(r => {
+        if (!r.ok) throw new Error('Falha ao carregar verses.json');
+        return r.json();
+      })
+      .then(data => {
+        const v = data[key];
+        if (v) {
+          document.getElementById('ref').textContent = v.ref;
+          document.getElementById('text').textContent = v.text;
+        } else {
+          document.getElementById('ref').textContent = 'Versículo não encontrado';
+          document.getElementById('text').textContent = 'Preencha verses.json com as entradas para cada dia no formato DD-MM.';
+        }
+      })
+      .catch(err => {
+        document.getElementById('ref').textContent = 'Erro ao carregar';
+        document.getElementById('text').textContent = 'Verifique se o arquivo verses.json está no mesmo diretório.';
+        console.error(err);
+      });
+  </script>
+</body>
+</html>
