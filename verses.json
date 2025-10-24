@@ -1,52 +1,33 @@
-[
-  {
-    "date": "10-22",
-    "reference": "Mateus 5:9",
-    "text": "Bem-aventurados os pacificadores, porque eles serão chamados filhos de Deus."
-  },
-  {
-    "date": "10-23",
-    "reference": "Mateus 11:28",
-    "text": "Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei."
-  },
-  {
-    "date": "10-24",
-    "reference": "Lucas 6:31",
-    "text": "E como vós quereis que os homens vos façam, da mesma maneira lhes fazei vós também."
-  },
-  {
-    "date": "10-25",
-    "reference": "João 8:12",
-    "text": "Eu sou a luz do mundo; quem me segue não andará em trevas, mas terá a luz da vida."
-  },
-  {
-    "date": "10-26",
-    "reference": "Romanos 8:28",
-    "text": "Sabemos que todas as coisas contribuem juntamente para o bem daqueles que amam a Deus."
-  },
-  {
-    "date": "10-27",
-    "reference": "Filipenses 4:13",
-    "text": "Posso todas as coisas naquele que me fortalece."
-  },
-  {
-    "date": "10-28",
-    "reference": "1 Coríntios 13:13",
-    "text": "Agora, pois, permanecem a fé, a esperança e o amor, estes três; mas o maior destes é o amor."
-  },
-  {
-    "date": "10-29",
-    "reference": "2 Coríntios 5:7",
-    "text": "Porque andamos por fé, e não por vista."
-  },
-  {
-    "date": "10-30",
-    "reference": "Efésios 4:32",
-    "text": "Antes sede uns para com os outros benignos, compassivos, perdoando-vos uns aos outros, como também Deus vos perdoou em Cristo."
-  },
-  {
-    "date": "10-31",
-    "reference": "Tiago 1:12",
-    "text": "Bem-aventurado o homem que suporta a tentação; porque, depois de aprovado, receberá a coroa da vida."
-  }
-]
+{
+  "01-10": { "ref": "Mateus 5:16", "text": "Assim resplandeça a vossa luz diante dos homens, para que vejam as vossas boas obras e glorifiquem a vosso Pai, que está nos céus." },
+  "02-10": { "ref": "Mateus 6:33", "text": "Mas buscai primeiro o reino de Deus, e a sua justiça, e todas estas coisas vos serão acrescentadas." },
+  "03-10": { "ref": "Mateus 7:7", "text": "Pedi, e dar-se-vos-á; buscai, e achareis; batei, e abrir-se-vos-á." },
+  "04-10": { "ref": "Mateus 11:28", "text": "Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei." },
+  "05-10": { "ref": "Mateus 22:37", "text": "Amarás o Senhor teu Deus de todo o teu coração, e de toda a tua alma, e de todo o teu entendimento." },
+  "06-10": { "ref": "Marcos 9:23", "text": "Tudo é possível ao que crê." },
+  "07-10": { "ref": "Marcos 12:30", "text": "Amarás o Senhor teu Deus de todo o teu coração, e de toda a tua alma, e de todo o teu entendimento, e de todas as tuas forças." },
+  "08-10": { "ref": "Marcos 16:15", "text": "Ide por todo o mundo, pregai o evangelho a toda criatura." },
+  "09-10": { "ref": "Lucas 6:31", "text": "E como vós quereis que os homens vos façam, da mesma maneira lhes fazei vós também." },
+  "10-10": { "ref": "Lucas 11:9", "text": "Pedi, e dar-se-vos-á; buscai, e achareis; batei, e abrir-se-vos-á." },
+  "11-10": { "ref": "Lucas 12:34", "text": "Porque onde estiver o vosso tesouro, aí estará também o vosso coração." },
+  "12-10": { "ref": "João 3:16", "text": "Porque Deus amou ao mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna." },
+  "13-10": { "ref": "João 8:12", "text": "Eu sou a luz do mundo; quem me segue não andará em trevas, mas terá a luz da vida." },
+  "14-10": { "ref": "João 13:34", "text": "Um novo mandamento vos dou: que vos ameis uns aos outros; assim como eu vos amei, que também vos ameis uns aos outros." },
+  "15-10": { "ref": "João 14:6", "text": "Eu sou o caminho, e a verdade, e a vida; ninguém vem ao Pai, senão por mim." },
+  "16-10": { "ref": "João 15:12", "text": "O meu mandamento é este: que vos ameis uns aos outros, assim como eu vos amei." },
+  "17-10": { "ref": "Atos 20:35", "text": "Mais bem-aventurada coisa é dar do que receber." },
+  "18-10": { "ref": "Romanos 8:28", "text": "Sabemos que todas as coisas contribuem juntamente para o bem daqueles que amam a Deus." },
+  "19-10": { "ref": "Romanos 12:12", "text": "Alegrai-vos na esperança, sede pacientes na tribulação, perseverai na oração." },
+  "20-10": { "ref": "1 Coríntios 13:13", "text": "Agora, pois, permanecem a fé, a esperança e o amor, estes três; mas o maior destes é o amor." },
+  "21-10": { "ref": "2 Coríntios 5:7", "text": "Porque andamos por fé, e não por vista." },
+  "22-10": { "ref": "Efésios 2:8", "text": "Porque pela graça sois salvos, por meio da fé; e isto não vem de vós, é dom de Deus." },
+  "23-10": { "ref": "Filipenses 4:13", "text": "Posso todas as coisas naquele que me fortalece." },
+  "24-10": { "ref": "Colossenses 3:23", "text": "E tudo quanto fizerdes, fazei-o de coração, como ao Senhor, e não aos homens." },
+  "25-10": { "ref": "1 Tessalonicenses 5:16", "text": "Regozijai-vos sempre." },
+  "26-10": { "ref": "2 Timóteo 1:7", "text": "Porque Deus não nos deu espírito de covardia, mas de poder, de amor e de moderação." },
+  "27-10": { "ref": "Tito 2:11", "text": "Porque a graça de Deus se há manifestado, trazendo salvação a todos os homens." },
+  "28-10": { "ref": "Hebreus 11:1", "text": "Ora, a fé é o firme fundamento das coisas que se esperam, e a prova das coisas que se não veem." },
+  "29-10": { "ref": "Tiago 1:12", "text": "Bem-aventurado o homem que suporta a tentação; porque, depois de aprovado, receberá a coroa da vida." },
+  "30-10": { "ref": "1 Pedro 5:7", "text": "Lançando sobre ele toda a vossa ansiedade, porque ele tem cuidado de vós." },
+  "31-10": { "ref": "1 João 4:8", "text": "Aquele que não ama não conhece a Deus; porque Deus é amor." }
+}
